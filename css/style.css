@@ -1,0 +1,236 @@
+
+/*main header css*/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(../images/dark-computer.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+header {
+    background-color: rgba(45, 45, 45, .98);
+    display: flex;
+   
+    width: 100%;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+.main-header-name{
+    font-weight: normal;
+    font-size: 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+}
+
+ 
+.main-header-name, nav a {
+    color: #eee;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 0px;
+}
+
+nav li {
+    margin-right: 20px;
+    list-style: none;
+    display: inline-block;
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+nav a:hover {
+    color: slategray;
+    cursor: pointer;
+}
+
+
+.card {
+    
+    background-color: gray;
+    max-width: 600px;
+    text-align: center;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+
+.card img {
+    border-radius: 50%;
+    border: solid white 2px;
+    width: 150px;
+    height: 150px;
+
+}
+
+.profile-position {
+    color: skyblue;
+    font-weight: bold;
+}
+
+.profile-body {
+    padding 0px 50px
+
+}
+
+#ccontainer {
+    max-width: 780px;
+    background-color: gray;
+    margin: 3em auto;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    }
+
+    .container form {
+       width: 80%;
+       
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    form div {
+        margin: 10px auto;
+       
+    }
+
+
+    .col {
+        display: inline-block;
+    }
+
+   textarea {
+        width: 500px;
+        height: 100px;
+        font-size: 20px;
+        
+        
+    }
+
+    .messagelabel {
+        width: 285px;
+        align-self: center;
+    }
+
+    
+
+    form input {
+        line-height: 30px;
+        width: 250px;
+        font-size: 25px;
+    }
+
+    form button {
+        padding: auto auto;
+        align-self: center;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #fff;
+    }
+
+    form label {
+        margin: 0px 70x;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .form-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #emailandinput {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media screen and (max-width: 630px){
+        nav li {
+            display: block;
+        }
+        .col, input, textarea {
+            display: flex;
+            width: auto;
+        }
+       
+    }
+
+    .portfolio-container img {
+        width: 200px;
+        border: solid white 3px;
+        margin: 0 auto;
+    }
+
+    .portfolio-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h3{
+        text-align: center;
+        margin-top: -39px;
+        
+    }
+    
+    .border a {
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    footer {
+        width: 100%;
+        background-color:darkgrey;
+        height: 100px;
+        border-top: 8px solid #4aaaa5;
+        margin-top: 200px;
+        }
+    
+    #footcopy {
+        text-align: center;
+        font-size: 14px;
+        color:#ffffff;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    @media screen and (max-width: 630px) {
+
+        .portfolio-container .border {
+            display: inline-block;    
+        }
+    }
+
+    @media screen and (max-width: 405px) {
+        .portfolio-container {
+            text-align: center;
+        }
+    }
+
+@media screen and (max-width: 360px) {
+    .messagelabel {
+        width: 200px;
+    }
+}
